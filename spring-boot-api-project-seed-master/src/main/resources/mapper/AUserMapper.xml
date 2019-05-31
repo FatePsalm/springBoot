@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.AUserMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.AUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="account" jdbcType="VARCHAR" property="account" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="u_name" jdbcType="VARCHAR" property="uName" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="card" jdbcType="VARCHAR" property="card" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="u_phone" jdbcType="VARCHAR" property="uPhone" />
+    <result column="register_time" jdbcType="TIMESTAMP" property="registerTime" />
+    <result column="credit" jdbcType="INTEGER" property="credit" />
+    <result column="integration" jdbcType="INTEGER" property="integration" />
+    <result column="sign" jdbcType="VARCHAR" property="sign" />
+    <result column="recommend" jdbcType="VARCHAR" property="recommend" />
+    <result column="dealers_id" jdbcType="VARCHAR" property="dealersId" />
+    <result column="dealers_name" jdbcType="VARCHAR" property="dealersName" />
+    <result column="business_num" jdbcType="VARCHAR" property="businessNum" />
+    <result column="legal_person" jdbcType="VARCHAR" property="legalPerson" />
+    <result column="brought_account" jdbcType="VARCHAR" property="broughtAccount" />
+    <result column="opening_bank" jdbcType="VARCHAR" property="openingBank" />
+    <result column="lcense_img" jdbcType="VARCHAR" property="lcenseImg" />
+    <result column="buyer_num" jdbcType="VARCHAR" property="buyerNum" />
+    <result column="staff_id" jdbcType="INTEGER" property="staffId" />
+    <result column="head_img" jdbcType="VARCHAR" property="headImg" />
+    <result column="grade" jdbcType="INTEGER" property="grade" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="flag" jdbcType="INTEGER" property="flag" />
+  </resultMap>
+</mapper>
